@@ -1,0 +1,16 @@
+{
+  "name": "@traceasync/node",
+  "version": "0.0.1",
+  "description": "Open-source SDK for tracing async workflows and AI calls",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node examples/local-lambda.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
