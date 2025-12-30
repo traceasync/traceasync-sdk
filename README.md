@@ -57,12 +57,12 @@ Output (simplified):
 }
 ```
 
-Async propagation (the important part)
+#### Async propagation (the important part)
 
 TraceAsync lets you resume a workflow in a different async execution
 (e.g. SQS consumer) without relying on correlation IDs.
 
-Producer
+#### Producer
 
 ```ts
 const producer = traceAsync.lambda('producer', async () => {
@@ -71,7 +71,7 @@ const producer = traceAsync.lambda('producer', async () => {
 });
 ```
 
-Consumer
+#### Consumer
 
 ```ts
 await traceAsync.resume(payload, 'consumer', async () => {
