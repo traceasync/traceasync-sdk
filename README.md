@@ -89,23 +89,24 @@ Result:
 
 This works across Lambdas, queues, delays, and retries.
 
-🛠 Why TraceAsync?
+## 🛠 Why TraceAsync?
 
 Most tracing tools assume synchronous request/response cycles or stable correlation IDs.
 
-TraceAsync is built for:
+### TraceAsync is built for:
 
 - Event-driven systems
 - Async fan-out / fan-in
 - Background jobs
 - AI agent workflows
 
-Status
+## Status
 
-✅ Local exporter
-✅ Async propagation (propagate / resume)
+✅ Local exporter\
+✅ Async propagation (propagate / resume)\
 🚧 Cloud exporter + UI (in progress)
 
-💬 Feedback
-If you’re debugging async systems in production, I’d love your feedback.
+## 💬 Feedback
+
+If you’re debugging async systems in production, I’d love your feedback.\
 Issues and discussions are welcome.
