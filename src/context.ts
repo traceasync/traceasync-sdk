@@ -12,6 +12,7 @@ export type TraceContext = {
   runName: string
   startTime: number
   steps: TraceStep[]
+  continuedFromRunId?: string
 }
 
 export const traceStorage = new AsyncLocalStorage<TraceContext>()
