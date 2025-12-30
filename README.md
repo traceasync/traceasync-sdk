@@ -57,7 +57,7 @@ Output (simplified):
 }
 ```
 
-#### Async propagation (the important part)
+## Async propagation (the important part)
 
 TraceAsync lets you resume a workflow in a different async execution
 (e.g. SQS consumer) without relying on correlation IDs.
